@@ -18,11 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Timo <ruby>経験 <rp>(</rp><rt>Keiken</rt><rp>)</rp></ruby>
+description: >-
+  A deep dive into the tech and design of what it's taking me to make
+  a game while shipping my own engine.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://timoguy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 avatar: /avatar.jpeg
