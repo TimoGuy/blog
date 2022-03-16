@@ -19,20 +19,54 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Your awesome title
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://timoguy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+avatar: /avatar.jpeg
+paginate: 5
+permalink: pretty
+cover_image: /bg.jpeg
 
 # Build settings
-theme: minima
+# theme: not-pure-poole
 plugins:
   - jekyll-feed
+  - not-pure-poole
+
+# For gh pages
+remote_theme: vszhub/not-pure-poole
+
+# Optimize Jekyl SEO Tag
+# twitter:
+#   username: vszhub
+#   card: summary
+# logo: logo.png
+# social:
+#   name: Songzi Vong
+#   links:
+#     - https://twitter.com/vszhub
+#     - https://github.com/vszhub
+google_site_verification: xxxxx
+lang: en
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# google_analytics: UA-000000-0
+
+# Replace this value and uncomment to enable Disqus
+disqus: timo-keiken
+
+# Specify the author for blog posts
+author:
+  name: Timo
+  url: https://github.com/TimoGuy/
+  email: jojojojojojojojojojojojojojojojojojo@website.com
 
 # Exclude from processing.
 # The following items will not be processed, by default.
