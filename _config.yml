@@ -22,7 +22,7 @@ title: Timo <ruby>経験 <rp>(</rp><rt>Keiken</rt><rp>)</rp></ruby>
 description: >-
   A deep dive into the tech and design of what it's taking me to make
   a game while shipping my own engine.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://timoguy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 avatar: /avatar.jpeg
 paginate: 5
